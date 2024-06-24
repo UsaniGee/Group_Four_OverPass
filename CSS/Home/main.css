@@ -1089,7 +1089,7 @@ Within this div contains two other divs that contain the text styling */
     box-shadow: 10px 0px 50px 10px rgba(49, 48, 48, 0.11);
 }
 
-.sec_four_box6{}
+/* .sec_four_box6{} */
 
 .fourth_sec_box6_1_h2{
     font-size: 18px;
@@ -1109,11 +1109,11 @@ Within this div contains two other divs that contain the text styling */
 /* ---------This is the styling for the contents inside scroll section inside the fourth section--------- */
 /* ===================================================================================== */
 
-.fourth_sec_box1_2_1, .fourth_sec_box2_2_1, .fourth_sec_box3_2_1, .fourth_sec_box4_2_1, .fourth_sec_box5_2_1 {
-    /* background: blue; */
-    /* height: inherit; */
-    /* width: 30%; */
-}
+/* .fourth_sec_box1_2_1, .fourth_sec_box2_2_1, .fourth_sec_box3_2_1, .fourth_sec_box4_2_1, .fourth_sec_box5_2_1 {
+    background: blue;
+    height: inherit;
+    width: 30%;
+} */
 
 .fourth_sec_box1_2_1_img, .fourth_sec_box2_2_1_img, .fourth_sec_box3_2_1_img, .fourth_sec_box4_2_1_img, .fourth_sec_box5_2_1_img{
         width: 124.98px;
@@ -1132,9 +1132,9 @@ Within this div contains two other divs that contain the text styling */
     /* border-radius: inherit; */
 }
 
-.fourth_sec_box1_2_2_text1, .fourth_sec_box2_2_2_text1, .fourth_sec_box3_2_2_text1, .fourth_sec_box4_2_2_text1, .fourth_sec_box5_2_2_text1 {
-    /* margin: 30px 0px; */
-}
+/* .fourth_sec_box1_2_2_text1, .fourth_sec_box2_2_2_text1, .fourth_sec_box3_2_2_text1, .fourth_sec_box4_2_2_text1, .fourth_sec_box5_2_2_text1 {
+    margin: 30px 0px;
+} */
 
 .fourth_sec_box1_2_2_text1_h1{
     width: 334.06px;
@@ -1263,7 +1263,7 @@ Within this div contains two other divs that contain the text styling */
     width: 100vw;
     /* height: 100vh; */
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(3, 1fr);
 
 }
@@ -1358,17 +1358,17 @@ Within this div contains two other divs that contain the text styling */
 }
 
 .sixth_test_3_2{
-    width: 690.31px;
-    height: 450.72px;
+    width: 550.31px;
+    height: 400.72px;
     margin: 115px 0px 0px 15px;
-    z-index: 2;
+    z-index: 1;
 }
 
 /* ==================================
 
 ====================================*/
 .sixth_test_4{
-    width: 640px;
+    /* width: 640px; */
     height: 699.03px;
     padding: 165.333px 35.5556px 175.111px 106.999px;
     /* background: ; */
@@ -1428,11 +1428,162 @@ Within this div contains two other divs that contain the text styling */
     color: #687086;
 }
 
+.sixth_sec_btn{
+    width: 156.22px;
+    height: 54.11px;
+    background: #f9fafb;
+    font-size: 12.1947px;
+    color: #1e2432;
+    border: none;
+    border-radius: 50px;
+}
+
+.sixth_sec_btn:hover{
+    background: #1e2432;
+    color: #FFFFFF;
+}
+
 /* =====================================
 
 =======================================*/
 .sixth_test_6{
     /* width: 640px; */
+    display: flex;
     height: 699.03px;
     background: pink;
+    position: relative;
+}
+
+.sixth_test_6_1{
+    width: 450px;
+    height: 400px;
+    background: #ffda54;
+    border-bottom-left-radius: 500px;
+    position: absolute;
+    right: 0;
+}
+
+.sixth_test_6_2{
+    height: 500.688px;
+    /* width: 400.188px; */
+    /* margin: 100.505px 200.417px; */
+    margin: auto;
+    z-index: 1;
+}
+
+/* =============================================================== */
+/* This is seventh section that contains all the styling for this section*/
+/* =============================================================== */
+
+.seventh_sec{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 657.4px;
+    background: #3FB04F;
+    padding: 147.089px 260.94px 97.2683px 102.804px;
+}
+
+.seventh_sec_maindiv1{
+    display: flex;
+    justify-content: space-between;
+    width: 900.732px;
+    height: 413.045px;
+        /* background: red; */
+    position: relative;
+}
+
+.seventh_sec_maindiv1_1{
+    width: 392.58px;
+    height: 413.07px;
+    
+    color: #FFFFFF
+    /* background: blue; */
+}
+.seventh_sec_maindiv1_1_text1{
+    font-size: 40.3741px;
+    width: 360.13px;
+    height: 68.38px;
+    margin: 9.8421px 0px -9.8421px;
+    padding: 0px 0px 9.8421px;
+}
+.seventh_sec_maindiv1_1_text2{
+    font-size: 40.3741px;
+    width: 455.5px;
+    height: 68.38px;
+    margin: 9.8421px 0px -9.8421px;
+    padding: 0px 0px 9.8421px;    
+}
+.seventh_sec_maindiv1_1_text3{
+    font-size: 40.3741px;
+    width: 295.88px;
+    height: 68.38px;
+    margin: 9.8421px 0px 42.321px;;
+    /* margin: 0px 0px  */
+    padding: 0px 0px 9.8421px;
+}
+.seventh_sec_maindiv1_1_text4{
+    width: 350.89px;
+    height: 70.88px;
+    color: #FFFFFF;
+    font-size: 15.7474px;
+    margin: 0px 0px 42.321px;
+}
+
+.seventh_sec_btn{
+    width: 156.22px;
+    height: 54.11px;
+    background: #FFFFFF;
+    color: #000000;
+    font-size: 12.7947px;
+    border: none;
+    border-radius: 50px;
+}
+
+.seventh_sec_btn:hover{
+    background: #000000;
+    color: #FFFFFF;
+
+}
+.seventh_sec_maindiv1_2{
+    width: 247.52px;
+    height: 433.07px;
+    background: gray;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+/* ===============================================================================
+
+=======================================================================*/
+.seventh_sec_maindiv2{
+    position: absolute;
+    width: 470.51px;
+    height: 470.51px;
+    background: #ffda54;
+    right: 0;
+   bottom: 0;
+   border-top-left-radius: 100%;
+}
+
+.seventh_sec_maindiv3_img{
+    width: 348.73px;
+    height: 521.91px;
+    position: absolute;
+    top: 135.488px;
+    right: 71.172px;
+    bottom: 0;
+    left: 897.598px;
+}
+
+/* =============================================================== */
+/* This is eighth section that contains all the styling for this section*/
+/* =============================================================== */
+
+.eighth_section{
+    width: 100vw;
+    height: 515.88px;
+    background: #31e7b6;
+    padding: 123px 0px 0px;
 }
