@@ -1580,10 +1580,19 @@ Within this div contains two other divs that contain the text styling */
 /* =============================================================== */
 /* This is eighth section that contains all the styling for this section*/
 /* =============================================================== */
-
-.eighth_section{
+.eighth_section_outer{
     width: 100vw;
-    height: 515.88px;
-    background: #31e7b6;
-    padding: 123px 0px 0px;
+    height: 436.59px;
+    background: #f9fafb;
+    padding: 87.4667px 0px 0px;
 }
+.eighth_section_inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 349.53px;
+    /* background: #31e7b6; */
+    padding: 0px 106px 108.821px;
+}
+
+.main_svg1{}
